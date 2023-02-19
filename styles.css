@@ -1,8 +1,20 @@
 body {
   background-color: rgba(250, 183, 82, 0.863);
+
+  background: linear-gradient(
+    180deg,
+    rgba(250, 183, 82, 0.9585886437908496) 0%,
+    rgba(212, 103, 195, 0.8899611928104575) 72%
+  );
 }
 .puppy-crate {
-  background-color: rgba(201, 222, 240, 0.884);
+  background-color: rgba(201, 222, 240, 0.75);
+  max-width: 750px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 2px 2px rgba(104, 52, 28, 0.63);
+  padding-bottom: 20px;
 }
 img.hero-dog {
   display: block;
@@ -11,7 +23,39 @@ img.hero-dog {
   max-height: 550px;
   border-radius: 6px;
 }
-h1,
+h1 {
+  text-align: center;
+  padding-top: 8px;
+}
 h2 {
   text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 25px 10px 25px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(119, 62, 35, 0.75);
+  color: rgb(226, 203, 174);
+  font-size: 15px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgba(226, 154, 65, 0.8);
+  color: rgba(102, 59, 30, 0.8);
+  transition: 200ms ease-in-out;
+}
+#define {
+  font-family: monospace;
+  font-weight: 700;
+  color: rgba(199, 24, 199, 0.822);
 }
