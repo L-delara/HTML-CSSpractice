@@ -1,0 +1,17 @@
+body {
+  background-color: rgba(250, 183, 82, 0.863);
+}
+.puppy-crate {
+  background-color: rgba(201, 222, 240, 0.884);
+}
+img.hero-dog {
+  display: block;
+  margin: 0 auto;
+  max-width: 650px;
+  max-height: 550px;
+  border-radius: 6px;
+}
+h1,
+h2 {
+  text-align: center;
+}
