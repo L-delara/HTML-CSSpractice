@@ -6,6 +6,7 @@ body {
     rgba(250, 183, 82, 0.9585886437908496) 0%,
     rgba(212, 103, 195, 0.8899611928104575) 72%
   );
+  text-align: center;
 }
 .puppy-crate {
   background-color: rgba(201, 222, 240, 0.75);
@@ -23,20 +24,21 @@ img.hero-dog {
   max-height: 550px;
   border-radius: 6px;
 }
+
 h1 {
-  text-align: center;
-  padding-top: 8px;
-}
-h2 {
-  text-align: center;
+  padding-top: 10px;
 }
 
+h3 {
+  margin-bottom: 0;
+}
 p {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 20px;
   padding: 10px 25px 10px 25px;
+  margin-top: 0;
 }
 button {
   display: block;
